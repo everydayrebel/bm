@@ -1,0 +1,16 @@
+html { 
+  background: url(canyon.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.text {
+	font-family: sans-serif;
+	color: #FFFFFF;
+	font-size: 4em;
+	position: fixed;
+	left: 5px;
+	bottom: 5px;
+}
