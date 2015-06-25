@@ -2,7 +2,13 @@
 <div class="text">
 	Will tomorrow be brisky? <br />
 	<span id="jqBriskMessage">
-		I'm not sure...
+		Let me look that up...
 	</span>
+
+	<%= form_for(@subscriber) do |f| %>
+		<%= f.label :email %>
+		<%= f.text_field :email %>
+		<%= f.submit %>
+	<% end %>
 </div>
 <a href="#" class="js-geolocation" style="display: none;">Use My Location</a>
